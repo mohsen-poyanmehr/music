@@ -1,0 +1,405 @@
+*{
+	padding:0px;
+	margin:0px;
+	/*font-size:0px;*/
+	
+}
+body{
+	width:100%;
+	letter-spacing: 4px;
+	font-family: 'Open Sans', sans-serif;
+	background:url(background.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+        background-attachment:fixed;
+}
+
+hr{
+	color: #505050;
+}
+
+.container{
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+header{
+	width:100%;
+	padding-bottom:21%;
+	padding-top:5%;
+	text-align:center;
+}
+
+body .filter{
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+header ul{
+	margin-bottom:16%;
+	font-size: 13px;
+}
+
+header ul li {
+        display : inline-block;
+	margin-right:3%;
+}
+
+header ul li a {
+	text-decoration :none ;
+	color : #828282;
+}
+
+header ul li a:hover {
+        color : #ffffff;
+}
+
+header h1 {
+	color : #ffffff;
+	font-size:70px;
+	font-weight:lighter;
+}
+
+header h4 {
+        color : #aaaaaa;
+	font-weight:lighter;
+}
+
+.main_top{
+	padding-top:5%;
+	/*padding-left:10%;
+	padding-right:10%;*/
+	padding-bottom:4%;
+}
+
+.main_top .videos{
+	display:inline-block;
+	color:#ffffff;
+	margin-bottom:2%;
+	margin-right:83%;
+}
+
+.main_top .all_videos{
+	display:inline-block;
+}
+
+.main_top .all_videos a{
+        text-decoration:none;
+        color:#656565;
+	font-weight:lighter;
+	font-size:12px;
+	letter-spacing:1px;
+}
+
+.main_top .video1{
+	display:inline-block;
+	border-top:1px solid #505050;
+      	border-bottom:1px solid #505050;
+	border-right:1px solid #505050;
+	padding-right:2%;
+	padding-top:2%;
+	padding-bottom:6%;
+	width:30%;
+        height:200px;
+	margin-bottom:7%;
+}
+
+.main_top .video2{
+	display:inline-block;
+        border-top:1px solid #505050;
+        border-bottom:1px solid #505050;
+	border-right:1px solid #505050;
+	padding-right:2%;
+	padding-left:2%;
+        padding-top:2%;
+        padding-bottom:6%;
+	width:30%;
+        height:200px;
+	margin-bottom:7%;
+}
+
+.main_top .video3{
+        border-top:1px solid #505050;
+        border-bottom:1px solid #505050;
+	display:inline-block;
+	padding-top:2%;
+        padding-bottom:6%;
+	padding-left:2%;
+	width:30%;
+        height:200px;
+	margin-bottom:7%;
+}
+
+.main_top .video1 a{
+	letter-spacing: 1px;
+	text-decoration:none;
+	color:#ffffff;
+	font-size:15px;
+	font-weight:lighter;
+}
+
+.main_top .video2 a{
+        letter-spacing: 1px;
+        text-decoration:none;
+        color:#ffffff;
+        font-size:15px;
+        font-weight:lighter;
+}
+
+.main_top .video3 a{
+        letter-spacing: 1px;
+        text-decoration:none;
+        color:#ffffff;
+        font-size:15px;
+        font-weight:lighter;
+}
+
+.main_top .video_picture{
+	width:100%;
+	height:100%;
+	margin-bottom:2%;
+}
+
+.main_top .upcoming{
+        color:#ffffff;
+        margin-bottom:2%;
+}
+
+.main_top .upcoming_gigs{
+	border-top:1px solid #505050;
+	padding-top:2%;
+	padding-bottom:2%;
+	padding-left:1%
+}
+
+.main_top .upcoming_gigs .date,.number,.city,.name{
+	display:inline-block;
+	width:17%;
+	letter-spacing:1px;
+	color:#f3f3f3;
+	font-weight:lighter;
+}
+
+.main_top .upcoming_gigs .date{
+	color:#f3f3f3;
+	width:4%;
+	vertical-align:center;
+}
+
+.main_top .upcoming_gigs .number{
+        color:#ffffff;
+	font-weight:bold;
+	font-size:21px;
+	width:11%;
+	vertical-align:top;
+}
+
+.main_top .upcoming_gigs .city{
+        margin-right:26%;
+	width:19%;
+	vertical-align:top;
+}
+
+.main_top .upcoming_gigs .name{
+        vertical-align:top;
+}
+
+.main_top .view_all_gigs{
+        text-align:center;
+	margin-top:2%;
+	margin-bottom:8%;
+}
+
+.main_top .view_all_gigs a{
+        text-decoration:none;
+        color:#c5c5c5;
+        letter-spacing:1px;
+	font-size:12px;
+}
+
+.main_bottom{
+	/*padding-left:10%;
+	padding-right:6%;*/
+	padding-bottom:5%;
+}
+
+.main_bottom .div_bottom{
+	display:inline-block;
+	vertical-align:top;
+	width:28%;
+	/*border:#505050 solid 1px;*/
+	letter-spacing:1px;
+	color:#ffffff;
+	margin-right:4%;
+}
+
+.main_bottom .div_bottom .titre{
+	letter-spacing:2px;
+	font-size:15px;
+	color:#ffffff;
+}
+.main_bottom .div_bottom p{
+	color:#c1c1c1;
+	font-size:15px;
+	line-height: 180%;
+}
+
+.main_bottom .div_bottom img {
+	width:100%;
+	height:100%;
+}
+
+.main_bottom .div_bottom h4 {
+	margin-bottom:2%;
+}
+
+.main_bottom .div_bottom h4 a{
+        letter-spacing:1px;
+        color:#bdbdbd;
+        font-weight:lighter;
+        text-decoration:none;
+}
+
+.main_bottom .div_bottom h6 {
+        letter-spacing:2px;
+	font-size:11px;
+        color:#818181;
+	font-weight:lighter;
+}
+
+footer{
+	text-align:center;
+	padding-bottom:6%;
+	/*padding-left:10%;
+	padding-right:10%;*/
+	letter-spacing:2px;
+}
+
+footer a{
+	color:#ffffff;
+	text-decoration:none;
+	font-size: 18px;
+}
+
+footer hr{
+	margin-bottom:3%;
+}
+
+footer .fa{
+	margin-right:3%;
+	margin-bottom:5%;
+}
+
+footer h5{
+	font-weight:lighter;
+	color:#f6f6f6;
+	font-size:12px;
+}
+
+.fix{
+	position:fixed;
+	background-color:#000000;
+	bottom:0;
+	width:100%;
+	padding-left:2%;
+	/*border:#505050 1px solid;*/
+}
+
+#audioPlayer{
+	display:inline-block;
+	width:0px;
+}
+
+.control{
+	font-size:25px;
+	color:white;
+	border:#000000
+}
+
+button{
+	background-color:#000000;
+}
+
+button .fa{
+	color:white;
+	font-size:18px;
+}
+
+.fix{
+	letter-spacing:0px;
+}
+.fix .image{
+	display:inline-block;
+}
+
+.fix img{
+	width:3.4%;
+	margin-bottom:-1.2%;
+	margin-left:1%;
+}
+
+.fix .volume{
+	display:inline-block;
+}
+
+.stick1,.stick2,.stick3,.stick4,.stick5{
+	width:50px;
+	height:50px;
+	border:orange 2px solid;
+	color:green;
+	font-size:25px;
+	padding-right:10px;
+	padding-left:10px;
+}
+
+#progressBarControl{
+	vertical-align:top;
+	display:inline-block;
+	width:70%;
+	/*border:red solid 1px;*/
+	padding-laft:1%;
+	height:42px;
+}
+#progressBar{
+	position:absolute;
+	height:300%;
+	display:inline-block;
+	letter-spacing:1px;
+	width:100%;
+        font-size:10px;
+        color:#ffffff;
+	/*border:red solid 1px;*/
+	background-color:#000000;
+	/*padding-bottom:1%;*/
+}
+
+.fix #text{
+	position:absolute;
+	font-size:10px;
+        color:#ffffff;
+	z-index:1;
+	display:inline-block;
+	margin-top:1.5%;
+}
+
+#progressTime{
+	z-index:1;
+	position:relative;
+	float:right;	
+	display:inline-block;
+	font-size:10px;
+	color:#ffffff;
+	/*margin-top:1.5%;
+	margin-right:1%;*/
+	margin-top:1.5%;
+}
+
+.fix #koli{
+	position:relative;
+	top:0;
+	font-size:10px;
+        color:#ffffff;
+	display:inline-block;
+	width:100%;
+}
